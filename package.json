@@ -1,0 +1,30 @@
+{
+  "name": "yhack_workshop",
+  "version": "1.0.0",
+  "description": "An introduction to the basics of interacting with APIs!",
+  "main": "yhack_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node yhack_app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajoann/yhack_workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajoann/yhack_workshop/issues"
+  },
+  "homepage": "https://github.com/ajoann/yhack_workshop#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^23.0.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  }
+}
